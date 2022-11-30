@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+#Build command
+npm build
+
+#publish directory
+build
+
 # testing
 /coverage
 

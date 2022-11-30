@@ -8,17 +8,17 @@ const Layout = () => {
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <div className='d-flex'>
-              <img src='image/logo.png' alt='logo' width={40} />
-              <a className="navbar-brand" href="#">Akib</a>
+              <img src='image/logo_react_portfolio.png' alt='logo' width={40} style={{ borderRadius: '50%' }} />
+              {/* <a className="navbar-brand" href="#">Akib</a> */}
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
           </div>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
+                <Link className="nav-link" to={'/'}>Home</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to={'about'}>About</Link>
@@ -29,8 +29,12 @@ const Layout = () => {
             </ul>
           </div>
         </nav>
+      </div>
+      <hr />
+      <div className='container'>
         <Outlet />
       </div>
+
     </>
   )
 }
