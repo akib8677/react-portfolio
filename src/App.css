@@ -1,1 +1,9 @@
+.slide {
+  padding: 100px;
+}
 
+@media screen and (max-width: 600px) {
+  .slide {
+    padding: 20px;
+  }
+}
