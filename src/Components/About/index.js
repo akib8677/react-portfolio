@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const About = () => {
+
   return (
-    <div>About</div>
+    <>
+      <h1 className="animate__animated animate__bounce">An animated element</h1>
+    </>
   )
 }
 
