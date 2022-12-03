@@ -6,11 +6,12 @@ import { ImArrowRight } from 'react-icons/im'
 const Contact = () => {
   return (
     <div className="container mt-5">
+      <hr/>
       <div className='text-center'>
         <p className='color'>CONTACT</p>
         <h1 className='animate__animated animate__backInLeft'>Contact With Me</h1>
       </div>
-      <div className='p-5 p-sm-0'>
+      <div className='p-sm-0 mt-4'>
         <div className="row">
           <div className="col-sm-6">
             <div className="card shadow">
