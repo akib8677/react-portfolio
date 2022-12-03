@@ -2,10 +2,13 @@ import React from 'react';
 import Home from '../Home';
 import Contact from '../Contact';
 import About from '../About';
+import Projects from '../Projects';
+import Skills from '../Skills';
 
 const Layout = () => {
 
   function handleClickScroll(id) {
+    debugger;
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -36,6 +39,12 @@ const Layout = () => {
                   <a className="nav-link" type='button' onClick={() => handleClickScroll('About')}>About</a>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link" type='button' onClick={() => handleClickScroll('Skills')}>Skills</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" type='button' onClick={() => handleClickScroll('Projects')}>Project</a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link" type='button' onClick={() => handleClickScroll('Contact')}>Contact</a>
                 </li>
               </ul>
@@ -51,11 +60,26 @@ const Layout = () => {
         <div id='About' >
           <About />
         </div>
+        <div id='Skills'>
+          <Skills />
+        </div>
+        <div id='Projects'>
+          <Projects />
+        </div>
         <div id='Contact'>
           <Contact />
         </div>
       </div>
-
+        <hr/>
+      <footer className='footer-section'>
+        <div className="container card text-center">
+          <div className="card-body mt-4">
+          <img src='image/logo_react_portfolio.png' alt='logo' width={50} style={{ borderRadius: '50%' }} />
+            <h5 className="card-title mt-2">Akib</h5>
+            <p className="card-text mt-4">© 2022. All rights reserved by KfaqsInfo Tech Private Limited.</p>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }

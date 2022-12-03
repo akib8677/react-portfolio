@@ -73,3 +73,7 @@ h1{
 .msg-btn:hover {
   color: #fff;
 }
+
+.footer-section {
+  height: 250px;
+}

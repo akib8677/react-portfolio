@@ -22,11 +22,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col shadow">
+          <div className="col shadow" style={{width:''}}>
             <img src='image/profile3.jpg' alt='profile' height={600} />
           </div>
         </div>
       </div>
+      <hr/>
     </Fragment>
   )
 }
