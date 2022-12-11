@@ -33,7 +33,7 @@ const Layout = () => {
             <div className="collapse navbar-collapse p-2" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <a className="nav-link" type='button' onClick={() => handleClickScroll('Home')}>Home</a>
+                  <a className="nav-link active" type='button' onClick={() => handleClickScroll('Home')}>Home</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" type='button' onClick={() => handleClickScroll('About')}>About</a>
