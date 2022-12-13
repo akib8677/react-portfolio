@@ -4,7 +4,7 @@ import { GrInstagram } from 'react-icons/gr';
 import { data } from '../../shared/data';
 
 const Home = () => {
-  const { profile: { title, profession, description, imageUrl, title_2 } } = data;
+  const { profile: { title, profession, description, imageUrl, title_2, icons } } = data;
 
   return (
     <Fragment>
@@ -20,7 +20,7 @@ const Home = () => {
               </div>
               <div className="col mt-2">
                 {
-                  data.profile.icons && data.profile.icons.map((p, i) => {
+                  icons && icons.map((p, i) => {
                     return (
                       <div key={i}>
                         <a type="button" href={ p.fabLink } className="btn btn-primary p-3 button"><SlSocialFacebook /></a>

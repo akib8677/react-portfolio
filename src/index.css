@@ -13,6 +13,46 @@ code {
     monospace;
 }
 
+.box h3{
+  text-align:center;
+  position:relative;
+  top:80px;
+}
+.box {
+  margin:40px auto;
+}
+
+.effect5:before,
+.effect5:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+.effect5:after {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
 
 /* bootstrap overwrit */
 .navbar-fix {
@@ -29,7 +69,7 @@ code {
   width: 60px;
   color: #000;
   background-color: #ecf0f3;
-  font-weight: 500;   
+  font-weight: 500;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -44,9 +84,13 @@ code {
   transform: translateY(-7px);
 }
 
-h1{
+h1 {
   font-size: 50px;
   font-weight: 900;
+}
+
+.nav-link {
+  color: rgb(38 178 251) !important;
 }
 
 .nav-link.active {
@@ -63,7 +107,7 @@ h1{
 }
 
 .color {
-    color: rgb(38 178 251);
+  color: rgb(38 178 251);
 }
 
 .msg-btn {
