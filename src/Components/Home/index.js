@@ -13,7 +13,7 @@ const Home = () => {
           <div className="col">
             <h5 className='text-muted animate__animated animate__backInLeft'>{title}</h5>
             <h1 className='my-4'>Hi, I' am <span className='color'>Akib Jawed</span><br />{profession}</h1>
-            <p>{description}</p>
+            {/* <p>{description}</p> */}
             <div className="row mt-5">
               <div className='text-muted'>
                 <h6>{title_2}</h6>
@@ -33,7 +33,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col shadow" style={{ width: '' }}>
+          <div className="col shadow">
             <img src={ imageUrl } alt='profile' height={600} />
           </div>
         </div>

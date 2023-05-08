@@ -29,11 +29,11 @@ const Projects = () => {
               <div className="card box effect5">
                 <img src="image/contact_img.png" className="card-img-top" alt="..." />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Webapp Development</h5>
-                  <span class="badge text-bg-secondary">Angular</span>
-                  <span class="badge text-bg-secondary mx-1">Firebase</span>
+                  <h5 className="card-title">G4S-DWP</h5>
+                  <span class="badge text-bg-secondary mx-1">React.js</span>
+                  {/* <span class="badge text-bg-secondary mx-1">Firebase</span> */}
                   <span class="badge text-bg-secondary">HTML/CSS</span>
-                  <span class="badge text-bg-secondary mx-1">nodejs</span>
+                  {/* <span class="badge text-bg-secondary mx-1">nodejs</span> */}
                 </div>
               </div>
             </div>
@@ -41,11 +41,11 @@ const Projects = () => {
               <div className="card box effect5">
                 <img src="image/contact_img.png" className="card-img-top" alt="..." />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Webapp Development</h5>
+                  <h5 className="card-title">Virtuscan</h5>
                   <span class="badge text-bg-secondary">Angular</span>
                   <span class="badge text-bg-secondary mx-1">Firebase</span>
                   <span class="badge text-bg-secondary">HTML/CSS</span>
-                  <span class="badge text-bg-secondary mx-1">nodejs</span>
+                  <span class="badge text-bg-secondary mx-1">node.js</span>
                 </div>
               </div>
             </div>
@@ -53,8 +53,8 @@ const Projects = () => {
               <div className="card box effect5">
                 <img src="image/contact_img.png" className="card-img-top" alt="..." />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Webapp Development</h5>
-                  <span class="badge text-bg-secondary">Angular</span>
+                  <h5 className="card-title">Site-Map</h5>
+                  <span class="badge text-bg-secondary">React.js</span>
                   <span class="badge text-bg-secondary mx-1">Firebase</span>
                   <span class="badge text-bg-secondary">HTML/CSS</span>
                   <span class="badge text-bg-secondary mx-1">nodejs</span>
