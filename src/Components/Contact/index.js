@@ -18,8 +18,8 @@ const Contact = () => {
               <img src="image/contact_img.png" className="card-img-top p-4" height={270} alt="img" />
               <div className="card-body">
                 <h3 className="card-title">Akib Jawed</h3>
-                <p className='text-muted'>Software Developer</p>
-                <p className="card-text text-muted">I am available for freelance work. Connect with me via and call in to my account.</p>
+                <p className='text-muted'>Web Developer & Designer</p>
+                <p className="card-text text-muted">I am available for work. Connect with me via and call in to my account.</p>
                 <div className='text-muted'>
                   <span>Phone: +918677065940</span><br />
                   <span>Email: akibjawed.dev@gmail.com</span>

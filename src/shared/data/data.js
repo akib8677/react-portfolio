@@ -2,7 +2,7 @@ import { FaPaintBrush } from 'react-icons/fa';
 
 export const profile = {
     title: 'WELCOME TO MY WORLD',
-    profession: 'a Devloper.',
+    profession: 'a Web Devloper & Designer.',
     description: 'I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction.',
     title_2: 'FIND WITH ME',
     icons: [
@@ -62,7 +62,7 @@ export const skills = {
 
 export const footer = {
     name: 'Akib',
-    description: '© 2022. All rights reserved by KfaqsInfo Tech Private Limited.',
+    description: '© 2022. All rights reserved by Tech Private Limited.',
     imageUrl: 'image/logo_react_portfolio.png'
 }
 

@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <>
-      <h1 className="animate__animated animate__bounce">An animated element</h1>
+      {/* <h1 className="animate__animated animate__bounce">An animated element</h1> */}
     </>
   )
 }
